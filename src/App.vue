@@ -3,7 +3,7 @@
 
     <header>
 
-      <Header />
+      <Header :headerD = headerData />
 
     </header>
 
@@ -26,6 +26,8 @@
 import Header from "./components/Header.vue";
 import Main from "./components/Main.vue";
 import Footer from "./components/Footer.vue";
+import "./assets/general.scss";
+import "./assets/color.scss";
 
 export default {
   name: "App",
@@ -33,6 +35,21 @@ export default {
     Header,
     Main,
     Footer
+  },
+  data(){
+
+    return {
+
+      headerData: {
+
+          headerDataInfo: ["Home", "Courses", "About Us", "News", "Pages"],
+
+          headerDataCourses: ["Contact", "Purchase"],
+
+        },
+
+    }
+
   },
 };
 </script>
