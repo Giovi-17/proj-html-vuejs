@@ -23,7 +23,7 @@
 
                         <ul class="d-flex justify-content-end align-items-center">
 
-                            <li v-for="(infoData, index) in headerD.headerDataInfo" :key="index" >{{ infoData }}  <img class="arrow" src="../assets/img/back-to-top-arrow.svg" alt="arrow"></li>
+                            <li v-for="(infoData, index) in headerD.headerDataInfo" :key="index" >{{ infoData }} <i class="fas fa-caret-down"></i></li>
 
                         </ul>
 
@@ -33,7 +33,7 @@
 
                         <ul class="d-flex justify-content-start align-items-center">
 
-                            <li v-for="(infoData, index) in headerD.headerDataCourses" :key="index" >{{ infoData }}  <img class="arrow" src="../assets/img/back-to-top-arrow.svg" alt="arrow"></li>
+                            <li v-for="(infoData, index) in headerD.headerDataCourses" :key="index" >{{ infoData }}</li>
 
                         </ul>
 
@@ -191,12 +191,11 @@ $thirdColor: #da5f60e6;
                             color: $firstColor;
                             margin: 0 15px;
                             font-size: 15px;
-                                
-                                .arrow{
 
-                                margin-left: 5px;
-                                width: 7px;
-                                transform: rotate(180deg);
+                            i{
+
+                                font-size: 10px;
+                                margin-left: 10px;
 
                             }
 
