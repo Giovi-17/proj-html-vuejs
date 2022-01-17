@@ -51,6 +51,35 @@
 
         </div>
 
+        <div class="row header-central d-flex space-layout-header d-flex justify-content-center">
+
+            <div class="title d-flex justify-content-center">
+
+                <h2>Key to yout success</h2>
+                
+            </div>
+
+            <div class="content d-flex justify-content-center">
+
+                <p>
+                    EduPrime is the most versatile WordPress 
+                    theme for education purposes,
+                    showcasing universities,courses,
+                    secondary schools etc.
+                </p>
+
+            </div>
+
+            <div class="btn-container">
+
+                <button type="button" class="btn btn-dark btn-lg btn-ms"><span><i class="fas fa-search"></i></span> Search courses</button>
+
+                <button type="button" class="btn btn-dark btn-lg btn-ms btn-ms-two"><span><i class="fas fa-user-plus"></i></span> Apply for university</button>
+
+            </div>
+
+        </div>
+
     </div>
 
   </div>
@@ -75,12 +104,14 @@ export default {
 // General Color
 $firstColor: white;
 $secondColor: #e9d758;
+$thirdColor: #da5f60e6;
 //
 
 .background{
 
     width: 100%;
-    background-color: #da5f60e6;
+    max-height: 700px;
+    background-color: $thirdColor;
     position: relative;
 
     &-image{
@@ -88,6 +119,8 @@ $secondColor: #e9d758;
         width: 100%;
         opacity: 10%;
         z-index: 1;
+        max-height: 700px;
+        object-fit: cover;
 
     }
 
@@ -104,7 +137,6 @@ $secondColor: #e9d758;
     .container-ms{
 
         width: 100%;
-        height: 120px;
 
         z-index: 2;
 
@@ -200,6 +232,78 @@ $secondColor: #e9d758;
 
                 }
 
+            }
+
+        }
+
+        .header-central{
+
+            width: 100%;
+            color: $firstColor;
+            text-align: center;
+            position: absolute;
+
+            /*test*/
+            top: 150%;
+            left: 0;
+
+            .title{
+
+                width: 100%;
+                margin: 15px 0;
+                
+                h2{
+
+                    font-size: 45px;
+
+                }
+
+            }
+
+            .content{
+
+                width: 100%;
+                margin: 15px 0;
+
+            }
+
+            .btn-container{
+
+                .btn-ms{
+
+                    background-color: $secondColor;
+                    border: $secondColor;
+                    color: $firstColor;
+
+                    margin-right: 30px;
+
+                }
+
+                .btn-ms-two{
+
+                    background-color: $firstColor;
+                    border: $firstColor;
+                    color: $thirdColor;
+
+                }
+
+                .btn-ms-two:hover{
+
+                    background-color: $thirdColor;
+                    border: $thirdColor;
+                    color: $firstColor;
+
+                }
+
+                span{
+
+                    i{
+
+                        font-size: 13px;
+
+                    }
+
+                }
 
             }
 
