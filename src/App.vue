@@ -15,7 +15,7 @@
 
     <footer>
 
-      <Footer />
+      <Footer :footerD = footerData />
 
     </footer>
 
@@ -46,7 +46,14 @@ export default {
 
           headerDataCourses: ["Contact", "Purchase"],
 
-        },
+      },
+
+      footerData: {
+
+        footerDataLinkOne: ["Request a website", "Browse Themes", "Payment option", "Support System", "Checkout", "Purchase Theme"],
+        footerDataLinkTwo: ["Purchase Theme", "Our Benefits", "Our Team", "Our Services", "Other Products", "My Account"],
+
+      }
 
     }
 
@@ -55,5 +62,11 @@ export default {
 </script>
 
 <style lang="scss">
+
+#app{
+
+  overflow: hidden;
+
+}
 
 </style>

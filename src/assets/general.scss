@@ -1,4 +1,4 @@
-@import "../assets/color.scss";
+@import "./color.scss";
 
 //RESET
 *{
@@ -39,8 +39,6 @@ ul{
 
     li{
 
-        padding-right: 0!important;
-        padding-left: 0!important;
         cursor: pointer;
 
     }
@@ -68,5 +66,12 @@ ul{
 .space-layout-header{
 
     padding: 0 25%;
+
+}
+
+//Main and Footer space
+.space-layout-general{
+
+    padding: 0 15%;
 
 }
