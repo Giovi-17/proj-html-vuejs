@@ -52,6 +52,7 @@ export default {
 
         footerDataLinkOne: ["Request a website", "Browse Themes", "Payment option", "Support System", "Checkout", "Purchase Theme"],
         footerDataLinkTwo: ["Purchase Theme", "Our Benefits", "Our Team", "Our Services", "Other Products", "My Account"],
+        footerDataCategories: ["Economy", "Design", "Coaching", "Business", "Medicine", "Law", "Fitness"],
 
       }
 

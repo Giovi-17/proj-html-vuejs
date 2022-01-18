@@ -52,7 +52,49 @@
 
       </div>
 
-      <div class="col-4 search"></div>
+      <div class="col-4 search">
+
+        <div class="searchBar">
+
+          <div class="btn-container">
+
+            <div class="searchBarSpan d-flex btn-ms">
+
+              <span>Search ...</span>
+
+              <div class="searchBarButton btn-container">
+                
+                <div class="btn-msR">
+
+                  <i class="fas fa-search"></i>
+
+                </div>
+                
+              </div>
+
+            </div>
+
+            
+
+          </div>
+
+        </div>
+
+        <span class="searchCategories">Search categories</span>
+
+        <div class="categories d-flex">
+
+          <div v-for="(categories, index) in footerD.footerDataCategories" :key="index" class="btn-container">
+
+            <div class="btn btn-ms">{{ categories }}</div>
+
+          </div>
+
+        </div>
+
+        <span class="rights">ModelTheme, All rights reserved.</span>
+
+      </div>
 
     </div>
 
@@ -79,14 +121,13 @@ export default {
 $firstColor: white;
 $secondColor: #e9d758;
 $thirdColor: #da5f60e6;
+$fourthColor: #8B8B8A;
 //
 
 .background{
 
   background-color: $thirdColor;
   color: $firstColor;
-  /*test*/
-  /* height: 500px; */
   padding: 120px 0;
 
   .space-layout-general{
@@ -141,7 +182,6 @@ $thirdColor: #da5f60e6;
             font-size: 20px;
             margin-bottom: 30px;
 
-
           }
 
           li{
@@ -152,6 +192,123 @@ $thirdColor: #da5f60e6;
           }
 
         }
+
+      }
+
+    }
+
+    .search{
+
+      text-align: right;
+
+      .searchBar{
+
+        display: block;
+
+        margin-bottom: 15px;
+
+        .btn-container{
+
+          width: 100%;
+
+          flex-direction: column;
+
+          text-align: left;
+
+          align-items: end;
+
+          .searchBarSpan{
+
+            position: relative;
+            width: 100%;
+
+          }
+
+          .searchBarButton{
+
+            position: absolute;
+            top: 0;
+            left: 0;
+
+            .btn-msR{
+
+              width: 62px;
+              height: 62px;
+
+              border-radius: 50%;
+
+              text-align: center;
+
+              background-color: $secondColor;
+              border: $secondColor;
+              color: $firstColor;
+
+              font-size: 15px;
+
+              padding: 20px 20px;
+
+            }
+
+          }
+
+          .btn-ms{
+
+            background-color: $firstColor;
+            border: $firstColor;
+            color: $fourthColor;
+
+            font-size: 15px;
+
+            padding: 20px 20px;
+
+          }
+
+        }
+
+      }
+
+      .searchCategories{
+
+        font-weight: bold;
+
+        margin: 15px 0;
+
+      }
+
+      .categories{
+
+        flex-wrap: wrap;
+
+        justify-content: end;
+
+        margin: 15px 0;
+
+        .btn-container{
+          
+          display: block;
+
+          .btn-ms{
+
+            border: 1px solid $firstColor;
+            color: $firstColor;
+
+            padding: 5px 15px ;
+            font-size: 12px;
+
+            margin: 5px 5px;
+            text-transform: uppercase;
+
+          }
+
+        }
+
+      }
+
+
+
+      .rights{
+
+        color: $secondColor;
 
       }
 
