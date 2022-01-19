@@ -29,6 +29,8 @@ import Footer from "./components/Footer.vue";
 import "./assets/general.scss";
 import "./assets/color.scss";
 
+
+
 export default {
   name: "App",
   components: {
@@ -63,10 +65,14 @@ export default {
 </script>
 
 <style lang="scss">
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Roboto:wght@300&display=swap');
 
 #app{
 
   overflow: hidden;
+
+  font-family: 'Architects Daughter', cursive;
+  font-family: 'Roboto', sans-serif;
 
 }
 
