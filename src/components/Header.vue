@@ -7,7 +7,7 @@
 
     <div class="container-fluid container-ms">
 
-        <div class="row header-top d-flex">
+        <div class="row header-top d-flex align-items-center">
 
             <div class="col-3 logo d-flex justify-content-center align-items-center">
 
@@ -15,11 +15,11 @@
 
             </div>
 
-            <div class="col-8 offset-1 nav-ms d-flex justify-content-end">
+            <div class="col-9 nav-ms d-flex justify-content-end align-items-center">
 
-                <div class="row container-info-courses">
+                <div class="row container-info-courses align-items-center">
 
-                    <div class="col-5 info">
+                    <div class="col-7 info">
 
                         <ul class="d-flex justify-content-end align-items-center">
 
@@ -29,7 +29,7 @@
 
                     </div>
 
-                    <div class="col-4 courses">
+                    <div class="col-2 courses">
 
                         <ul class="d-flex justify-content-start align-items-center">
 
@@ -271,8 +271,9 @@ $thirdColor: #da5f60e6;
 
             .content{
 
-                width: 100%;
-                margin: 15px 0;
+                width: 85%;
+                max-width: 600px;
+                margin: 15px auto;
 
             }
 
