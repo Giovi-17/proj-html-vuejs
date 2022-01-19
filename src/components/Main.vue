@@ -79,7 +79,55 @@
 
     <div class="facultiesContainer">
 
+      <div class="space-layout-general">
 
+        <div class="row-cols-5 d-flex">
+
+          <div class="col facultiesContainerCol inverted d-flex flex-column justify-content-center align-items-center">
+
+            <div class="facultiesImg"><img src="../assets/img/Gavel-v2.png" alt=""></div>
+
+            <div class="faculties">Law Faculty</div>
+
+            <div class="square"></div>
+
+          </div>
+
+          <div class="col facultiesContainerCol d-flex flex-column justify-content-center align-items-center">
+
+            <div class="facultiesImg"><img src="../assets/img/Coins-tabs-v2.png" alt=""></div>
+
+            <div class="faculties">Economy</div>
+
+          </div>
+
+          <div class="col facultiesContainerCol d-flex flex-column justify-content-center align-items-center">
+
+            <div class="facultiesImg"><img src="../assets/img/Medicine-tabs-v2.png" alt=""></div>
+
+            <div class="faculties">Medicine</div>
+
+          </div>
+
+          <div class="col facultiesContainerCol d-flex flex-column justify-content-center align-items-center">
+
+            <div class="facultiesImg"><img src="../assets/img/Computer-tabs-v2.png" alt=""></div>
+
+            <div class="faculties">Computer Scienze</div>
+
+          </div>
+
+          <div class="col facultiesContainerCol d-flex flex-column justify-content-center align-items-center">
+
+            <div class="facultiesImg"><img src="../assets/img/Palette-tabs-v2.png" alt=""></div>
+
+            <div class="faculties">Graphic Design</div>
+
+          </div>
+
+        </div>
+
+      </div>
 
     </div>
 
@@ -823,7 +871,6 @@ $sixthColor: #F7F8FA;
     .backgroundImage{
 
       width: 100%;
-      height: 70%;
 
       background-image: url("../assets/img/home-background.png");
       background-repeat: no-repeat;
@@ -931,6 +978,13 @@ $sixthColor: #F7F8FA;
 
         margin-top: 50px;
 
+        .card{
+
+          box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+          border-color: transparent;
+
+        }
+
         .image-Card-Courses{
 
           width: 60px;
@@ -985,7 +1039,7 @@ $sixthColor: #F7F8FA;
           .btn-card{
 
             background-color: $fifthColor;
-            border: 1px solid $fifthColor;
+            border-color: transparent;
 
             width: 120px;
 
@@ -1004,6 +1058,94 @@ $sixthColor: #F7F8FA;
               font-size: 12px;
 
             }
+
+          }
+
+        }
+
+      }
+
+    }
+
+    .facultiesContainer{
+
+      background-color: $firstColor;
+      box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+      width: 100%;
+
+      .space-layout-general{
+
+        .facultiesContainerCol{
+
+          padding: 20px 25px;
+
+          border: 1px solid lightgray;
+          
+          min-width: 172px;
+          min-height: 172px;
+
+          .facultiesImg{
+
+            width: 30%;
+
+            margin: auto;
+
+            img{
+
+              width: 100%;
+
+            }
+
+          }
+
+          .faculties{
+
+            color: $fifthColor;
+            font-weight: bold;
+            margin: 5px 0;
+
+          }
+
+        }
+
+        .inverted{
+
+          background-color: $fifthColor;
+
+          border-color: $fifthColor;
+
+          position: relative;
+
+          .facultiesImg{
+
+            filter: invert(1)!important;
+
+            img{
+
+              filter: brightness(0)!important;
+
+            }
+
+          }
+
+          .faculties{
+
+            color: $firstColor;
+
+          }
+
+          .square{
+
+            width: 25px;
+            height: 25px;
+
+            background-color: $fifthColor;
+
+            position: absolute;
+            top: 100%;
+            left: 50%;
+
+            transform: translate(-50%, -50%) rotate(45deg);
 
           }
 
@@ -1177,6 +1319,7 @@ $sixthColor: #F7F8FA;
 
         background-color: $firstColor;
         border-radius: 10px;
+        box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
 
         padding: 25px;
 
@@ -1217,7 +1360,8 @@ $sixthColor: #F7F8FA;
           .btn-card{
 
             background-color: $fifthColor;
-            border: 1px solid black;
+            border-color: transparent;
+            box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
 
             font-size: 13px;
 
