@@ -840,6 +840,7 @@ $thirdColor: #da5f60e6;
 $fourthColor: #8B8B8A;
 $fifthColor: #e56768;
 $sixthColor: #F7F8FA;
+$seventhColor: #454545; 
 //
 
   .background{
@@ -1200,8 +1201,8 @@ $sixthColor: #F7F8FA;
 
           .btn-ms{
 
-            background-color: $thirdColor;
-            border: $thirdColor;
+            background-color: $fifthColor;
+            border: $fifthColor;
             font-size: 13px;
 
           }
@@ -1389,7 +1390,7 @@ $sixthColor: #F7F8FA;
 
     .background-Subscribe{
 
-      background-color: $thirdColor;
+      background-color: $fifthColor;
 
       padding: 50px;
 
@@ -1419,6 +1420,10 @@ $sixthColor: #F7F8FA;
             display: block;
 
             margin-bottom: 15px;
+
+            margin-bottom: 0!important;
+
+            cursor: pointer;
 
             .btn-container{
 

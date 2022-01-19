@@ -115,13 +115,17 @@ export default {
 $firstColor: white;
 $secondColor: #e9d758;
 $thirdColor: #da5f60e6;
+$fourthColor: #8B8B8A;
+$fifthColor: #e56768;
+$sixthColor: #F7F8FA;
+$seventhColor: #454545; 
 //
 
 .background{
 
     width: 100%;
     max-height: 700px;
-    background-color: $thirdColor;
+    background-color: $fifthColor;
     position: relative;
 
     &-image{
@@ -293,14 +297,14 @@ $thirdColor: #da5f60e6;
 
                     background-color: $firstColor;
                     border: $firstColor;
-                    color: $thirdColor;
+                    color: $fifthColor;
 
                 }
 
                 .btn-ms-two:hover{
 
-                    background-color: $thirdColor;
-                    border: $thirdColor;
+                    background-color: $fifthColor;
+                    border: $fifthColor;
                     color: $firstColor;
 
                 }

@@ -96,6 +96,32 @@
 
     </div>
 
+    <div class="themes">
+
+      <div class="purchase-theme">
+
+        <div class="imgTheme"><img src="../assets/svg/svg-3.svg" alt=""></div>
+        
+        <span>Purchase Theme</span>
+
+      </div>
+
+      <div class="related-themes">
+
+        <div class="imgTheme"><img src="../assets/svg/svg-2.svg" alt=""></div>
+        
+        <span>Realated Themes</span>
+
+      </div>
+
+    </div>
+
+    <div class="angle-up">
+
+      <a href="#"><i class="fas fa-angle-up"></i></a>
+
+    </div>
+
   </div>
 
 </template>
@@ -120,13 +146,18 @@ $firstColor: white;
 $secondColor: #e9d758;
 $thirdColor: #da5f60e6;
 $fourthColor: #8B8B8A;
+$fifthColor: #e56768;
+$sixthColor: #F7F8FA;
+$seventhColor: #454545; 
 //
 
 .background{
 
-  background-color: $thirdColor;
+  background-color: $fifthColor;
   color: $firstColor;
-  padding: 120px 0;
+  padding: 150px 0;
+
+  position: relative;
 
   .space-layout-general{
 
@@ -204,6 +235,8 @@ $fourthColor: #8B8B8A;
         display: block;
 
         margin-bottom: 15px;
+
+        cursor: pointer;
 
         .btn-container{
 
@@ -311,6 +344,91 @@ $fourthColor: #8B8B8A;
       .rights{
 
         color: $secondColor;
+
+      }
+
+    }
+
+  }
+
+  .themes{
+
+    width: 170px;
+
+    position: absolute;
+
+    bottom: 50px;
+    left: 25px;
+
+    .purchase-theme, .related-themes{
+
+      display: flex;
+      align-items: center;
+      padding: 10px 10px;
+      padding-left: 20px;
+      margin: 15px 0;
+      border-radius: 5px;
+      box-shadow: 0 11px 20px -5px rgba(0, 0, 0, 0.5);
+
+      background-color: $seventhColor;
+      
+      cursor: pointer;
+
+      .imgTheme{
+
+        width: 15px;
+        height: 15px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 5px;
+
+        img{
+
+          width: 100%;
+
+        }
+
+      }
+
+      span{
+
+        font-size: 13px;
+        color: $fourthColor;
+
+      }
+
+    }
+
+  }
+
+  .angle-up{
+
+    width: 50px;
+    height: 50px;
+    background-color: $secondColor;
+    border-radius: 50%;
+
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+    
+    position: absolute;
+
+    bottom: 50px;
+    right: 50px;
+
+    a{
+
+      width: 100%;
+      height: 100%;
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      i{
+
+        font-size: 25px;
 
       }
 
