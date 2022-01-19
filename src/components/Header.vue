@@ -82,6 +82,16 @@
 
     </div>
 
+    <div class="side-menu">
+
+        <div><i class="fas fa-shopping-cart"></i></div>
+
+        <div><i class="far fa-newspaper"></i></div>
+
+        <div><i class="far fa-check-circle"></i></div>
+
+    </div>
+
   </div>
 
 </template>
@@ -305,6 +315,38 @@ $thirdColor: #da5f60e6;
                 }
 
             }
+
+        }
+
+    }
+
+    .side-menu{
+
+        display: inline-block;
+        background-color: $secondColor;
+        padding: 5px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.4);
+
+        position: absolute;
+        top: 50%;
+        left: 0;
+
+        transform: translateY(-50%);
+
+        z-index: 3;
+
+        div{
+
+            margin: 5px;
+
+        }
+
+        i{
+
+            cursor: pointer;
+            color: $firstColor;
 
         }
 
