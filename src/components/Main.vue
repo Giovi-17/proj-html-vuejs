@@ -39,7 +39,7 @@
 
             <div class="btn-container">
 
-              <button type="button" class="btn btn-dark btn-lg btn-ms"><span>Browse through courses</span></button>
+              <button type="button" class="btn btn-dark btn-lg btn-ms btn-ms-b-yellow hoverColor-RedPlus"><span>Browse through courses</span></button>
 
             </div>
 
@@ -840,7 +840,8 @@ $thirdColor: #da5f60e6;
 $fourthColor: #8B8B8A;
 $fifthColor: #e56768;
 $sixthColor: #F7F8FA;
-$seventhColor: #454545; 
+$seventhColor: #454545;
+$eighthColor: #dd3333;
 //
 
   .background{
@@ -1243,7 +1244,7 @@ $seventhColor: #454545;
           font-size: 35px;
           width: 250px;
 
-          background-color: #db2a2c;
+          background-color: $eighthColor;
 
         }
 

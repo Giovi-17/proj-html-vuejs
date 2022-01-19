@@ -107,6 +107,13 @@ a{
     
   }
 
+  .hoverColor-RedPlus:hover{
+
+    background-color: $eighthColor!important;
+    border: 1px solid $eighthColor!important;
+    
+  }
+
   .hoverColor-White:hover{
 
     background-color: $firstColor!important;
