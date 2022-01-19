@@ -438,7 +438,7 @@
 
               <div class="btn-container">
 
-                <button type="button" class="btn btn-dark btn-ms"><span>View All Events</span></button>
+                <button type="button" class="btn btn-dark btn-ms btn-ms-b-yellow hoverColor-Red"><span>View All Events</span></button>
 
               </div>
 
@@ -658,7 +658,7 @@
 
           <div class="btn-container">
 
-            <button type="button" class="btn btn-dark btn-lg btn-ms btn-ms-b-red"><span>Discover the Method</span></button>
+            <button type="button" class="btn btn-dark btn-lg btn-ms btn-ms-b-red hoverColor-Yellow"><span>Discover the Method</span></button>
 
           </div>
 
@@ -714,7 +714,7 @@
 
           <div class="btn-container">
 
-            <button type="button" class="btn btn-dark btn-lg btn-ms btn-ms-b-red"><span>List of Fees</span></button>
+            <button type="button" class="btn btn-dark btn-lg btn-ms btn-ms-b-red hoverColor-Yellow"><span>List of Fees</span></button>
 
           </div>
 
@@ -860,12 +860,6 @@ $seventhColor: #454545;
 
       display: flex;
       align-items: center;
-
-    }
-
-    .btn-ms-b-red{
-
-      background-color: $fifthColor!important;
 
     }
 
@@ -1549,6 +1543,12 @@ $seventhColor: #454545;
             transform: scale(90%);
             
             filter: opacity(30%);
+
+          }
+
+          img:hover{
+
+            filter: opacity(100%);
 
           }
 

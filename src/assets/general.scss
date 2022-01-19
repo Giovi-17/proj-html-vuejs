@@ -71,6 +71,44 @@ a{
 
 }
 
+.btn-ms-b-red{
+
+    background-color: $fifthColor!important;
+    border: 1px solid $fifthColor!important;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+
+  }
+
+  .btn-ms-b-yellow{
+
+    background-color: $secondColor!important;
+    border: 1px solid $secondColor!important;
+    box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1);
+
+  }
+
+  .hoverColor-Yellow:hover{
+
+    background-color: $secondColor!important;
+    border: 1px solid $secondColor!important;
+
+  }
+
+  .hoverColor-Red:hover{
+
+    background-color: $fifthColor!important;
+    border: 1px solid $fifthColor!important;
+    
+  }
+
+  .hoverColor-White:hover{
+
+    background-color: $firstColor!important;
+    border: 1px solid $firstColor!important;
+    color: $fifthColor!important;
+
+  }
+
 //Header space
 .space-layout-header{
 

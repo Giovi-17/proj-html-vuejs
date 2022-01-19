@@ -41,7 +41,7 @@
 
                     <div class="col-3 btn-container justify-content-end">
 
-                        <button type="button" class="btn btn-dark btn-lg btn-ms">VIEW COURSES</button>
+                        <button type="button" class="btn btn-dark btn-lg btn-ms btn-ms-b-yellow hoverColor-White">VIEW COURSES</button>
 
                     </div>
 
