@@ -74,8 +74,6 @@
 
             </div>
 
-            
-
           </div>
 
         </div>
@@ -228,7 +226,7 @@ $fourthColor: #8B8B8A;
 
             position: absolute;
             top: 0;
-            left: 0;
+            left: 1px;
 
             .btn-msR{
 
@@ -246,6 +244,12 @@ $fourthColor: #8B8B8A;
               font-size: 15px;
 
               padding: 20px 20px;
+
+              i{
+
+                transform: scale(1.1);
+
+              }
 
             }
 
@@ -303,8 +307,6 @@ $fourthColor: #8B8B8A;
         }
 
       }
-
-
 
       .rights{
 

@@ -4,54 +4,52 @@
 
     <div class="backgroundImage">
 
-      <img src="../assets/img/home-background.png" alt="decoration">
+      <div class="space-layout-general">
 
-    </div>
+        <div class="row d-flex justify-content-center">
 
-    <div class="space-layout-general">
+          <div class="col-6 sectionCol d-flex flex-column justify-content-center">
 
-      <div class="row">
+            <div class="mini-img-section">
 
-        <div class="col-6 sectionCol">
+              <img src="../assets/img/Books-icon.png" alt="books">
 
-          <div class="mini-img-section">
+            </div>
 
-            <img src="../assets/img/Books-icon.png" alt="books">
-
-          </div>
-
-          <div class="title d-flex">
-            
-            <h2>Thousands of courses for any type of student</h2>
-            
-          </div>
-
-          <div>
-
-            <p class="content d-flex justify-content-center">
+            <div class="title d-flex">
               
-              At EduPrime, it doesn't matter what domain you wish
-              to pursue a career in. Here you can find a course that 
-              satisfies your needs within a click away and applies for 
-              a course in a matter of minutes. EduPrime is ranked as 
-              the most versatile univeristy in the world, thanks to 
-              the number of courses it provides.
-            
-            </p>
-            
+              <h2>Thousands of courses for any type of student</h2>
+              
+            </div>
+
+            <div>
+
+              <p class="content d-flex justify-content-center">
+                
+                At EduPrime, it doesn't matter what domain you wish
+                to pursue a career in. Here you can find a course that 
+                satisfies your needs within a click away and applies for 
+                a course in a matter of minutes. EduPrime is ranked as 
+                the most versatile univeristy in the world, thanks to 
+                the number of courses it provides.
+              
+              </p>
+              
+            </div>
+
+            <div class="btn-container">
+
+              <button type="button" class="btn btn-dark btn-lg btn-ms"><span>Browse through courses</span></button>
+
+            </div>
+
           </div>
 
-          <div class="btn-container">
+          <div class="col-5 offset-1 sectionCol img-Main">
 
-            <button type="button" class="btn btn-dark btn-lg btn-ms"><span>Browse through courses</span></button>
+            <img src="../assets/img/Graduation-Illustration.png" alt="decoration">
 
           </div>
-
-        </div>
-
-        <div class="col-5 offset-1 sectionCol">
-
-          <img src="../assets/img/Graduation-Illustration.png" alt="decoration">
 
         </div>
 
@@ -89,13 +87,13 @@
 
       <div class="row d-flex justify-content-evenly">
 
-        <div class="col-6 sectionCol">
+        <div class="col-6 sectionCol img-Main">
 
           <img src="../assets/img/Gavel-Illustration-e1556884768193.png" alt="decoration">
 
         </div>
 
-        <div class="col-5 offset-1 sectionCol">
+        <div class="col-5 offset-1 sectionCol d-flex flex-column justify-content-center">
 
           <div class="title d-flex">
             
@@ -269,19 +267,130 @@
 
           <div class="space-layout-general-marginZero">
 
-            <div class="space-layout-general-marginZero">
+            <div class="mini-img">
 
-              <div class="mini-img">
+              <img src="../assets/img/upcoming-events-calendar-icon.png" alt="">
 
-                <img src="../assets/img/upcoming-events-calendar-icon.png" alt="">
+            </div>
 
-              </div>
+          </div>  
 
             <div class="d-flex justify-content-center">
 
               <div class="title-two">
 
                 <h3>Upcoming Events</h3>
+
+              </div>
+
+            </div>
+
+          <div class="row card-section d-flex justify-content-center">
+
+            <div class="col-3">
+
+              <div class="card">
+
+                <div class="title">
+
+                  <h4>Coaching Sessions</h4>
+
+                </div>
+
+                <div class="date">
+
+                  <i class="far fa-calendar-alt"></i><span> 20 May 21:30 PM</span>
+
+                </div>
+
+                <div class="description">
+
+                  Lorem ipsum dolor sit amet, consectetur
+                  adipiscing elit, sed do eiusmod tempor[...]
+
+                </div>
+
+                <div class="btn-container">
+
+                  <button type="button" class="btn btn-dark btn-ms btn-card"><i class="fas fa-plus"></i><span> Find More</span></button>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="col-3 offset-1">
+
+              <div class="card">
+
+                <div class="title">
+
+                  <h4>Coaching Sessions</h4>
+
+                </div>
+
+                <div class="date">
+
+                  <i class="far fa-calendar-alt"></i><span> 24 Mar 18:00 PM</span>
+
+                </div>
+
+                <div class="description">
+
+                  Lorem ipsum dolor sit amet, consectetur
+                  adipiscing elit, sed do eiusmod tempor[...]
+
+                </div>
+
+                <div class="btn-container">
+
+                  <button type="button" class="btn btn-dark btn-ms btn-card"><i class="fas fa-plus"></i><span> Find More</span></button>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="col-3 offset-1">
+
+              <div class="card">
+
+                <div class="title">
+
+                  <h4>Coaching Sessions</h4>
+
+                </div>
+
+                <div class="date">
+
+                  <i class="far fa-calendar-alt"></i><span> 12 Feb 13:30 PM</span>
+
+                </div>
+
+                <div class="description">
+
+                  Lorem ipsum dolor sit amet, consectetur
+                  adipiscing elit, sed do eiusmod tempor[...]
+
+                </div>
+
+                <div class="btn-container">
+
+                  <button type="button" class="btn btn-dark btn-ms btn-card"><i class="fas fa-plus"></i><span> Find More</span></button>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="btn-coachingSessions">
+
+              <div class="btn-container">
+
+                <button type="button" class="btn btn-dark btn-ms"><span>View All Events</span></button>
 
               </div>
 
@@ -295,7 +404,372 @@
 
     </div>
 
-  </div>
+    <div class="wave-down">
+
+      <img src="../assets/svg/svg-1.svg" alt="decoration">
+
+    </div>
+
+    <div class="space-layout-general">
+
+      <div>
+
+        <h2>Latest Courses</h2>
+
+      </div>
+
+      <div class="row card-courses d-flex justify-content-center">
+
+            <div class="col-3">
+
+              <div class="card space-card-l">
+
+                <div class="image-Card-Courses">
+
+                  <img src="../assets/img/Decisions-icon.png" alt="">
+
+                </div>
+
+                <div class="title">
+
+                  <h4>Make Better Decisions</h4>
+
+                </div>
+
+                <div class="teacher">
+
+                  <i class="far fa-user"></i><span> Teacher: <span class="bold">James Colins</span></span>
+
+                </div>
+
+                <div class="price">
+
+                  <i class="far fa-money-bill-alt"></i><span> Price: <span class="bold">$21.00</span></span>
+
+                </div>
+
+                <div class="btn-container">
+
+                  <button type="button" class="btn btn-dark btn-ms btn-card"><i class="far fa-eye"></i><span> View Course</span></button>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="col-3">
+
+              <div class="card space-card">
+
+                <div class="image-Card-Courses">
+
+                  <img src="../assets/img/Speaker-icon.png" alt="">
+
+                </div>
+
+                <div class="title">
+
+                  <h4>How to be a speaker</h4>
+
+                </div>
+
+                <div class="teacher">
+
+                  <i class="far fa-user"></i><span> Teacher: <span class="bold">James Colins</span></span>
+
+                </div>
+
+                <div class="price">
+
+                  <i class="far fa-money-bill-alt"></i><span> Price: <span class="bold">Free</span></span>
+
+                </div>
+
+                <div class="btn-container">
+
+                  <button type="button" class="btn btn-dark btn-ms btn-card"><i class="far fa-eye"></i><span> View Course</span></button>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="col-3">
+
+              <div class="card space-card">
+
+                <div class="image-Card-Courses">
+
+                  <img src="../assets/img/Network-icon.png" alt="">
+
+                </div>
+
+                <div class="title">
+
+                  <h4>Network Introductions</h4>
+
+                </div>
+
+                <div class="teacher">
+
+                  <i class="far fa-user"></i><span> Teacher: <span class="bold">James Colins</span></span>
+
+                </div>
+
+                <div class="price">
+
+                  <i class="far fa-money-bill-alt"></i><span> Price: <span class="bold">Free</span></span>
+
+                </div>
+
+                <div class="btn-container">
+
+                  <button type="button" class="btn btn-dark btn-ms btn-card"><i class="far fa-eye"></i><span> View Course</span></button>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="col-3">
+
+              <div class="card space-card-r">
+
+                <div class="image-Card-Courses">
+
+                  <img src="../assets/img/Brand-icon.png" alt="">
+
+                </div>
+
+                <div class="title">
+
+                  <h4>Brand Management</h4>
+
+                </div>
+
+                <div class="teacher">
+
+                  <i class="far fa-user"></i><span> Teacher: <span class="bold">James Colins</span></span>
+
+                </div>
+
+                <div class="price">
+
+                  <i class="far fa-money-bill-alt"></i><span> Price: <span class="bold">Free</span></span>
+
+                </div>
+
+                <div class="btn-container">
+
+                  <button type="button" class="btn btn-dark btn-ms btn-card"><i class="far fa-eye"></i><span> View Course</span></button>
+
+                </div>
+
+              </div>
+
+            </div>
+            
+      </div>
+
+    </div>
+
+    <div class="space-layout-general">
+
+      <div class="row d-flex justify-content-center">
+
+        <div class="col-6 sectionCol d-flex flex-column justify-content-center">
+
+          <div class="mini-img-section">
+
+            <img src="../assets/img/Exam-icon.png" alt="page">
+
+          </div>
+
+          <div class="title d-flex">
+            
+            <h2>The most efficient examination method</h2>
+            
+          </div>
+
+          <div>
+
+            <p class="content d-flex justify-content-center">
+              
+              EduPrime has gathered teachers from around the 
+              globe to brainstorm in order to facilitate the
+              evaluation of our students. Every teacher from
+              our univeristy has an influence on hom students
+              are evaluated at his/her subject.
+            
+            </p>
+            
+          </div>
+
+          <div class="btn-container">
+
+            <button type="button" class="btn btn-dark btn-lg btn-ms btn-ms-b-red"><span>Discover the Method</span></button>
+
+          </div>
+
+        </div>
+
+        <div class="col-5 offset-1 sectionCol img-Main">
+
+          <img src="../assets/img/Exam-Illustration.png" alt="decoration">
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="space-layout-general">
+
+      <div class="row d-flex justify-content-center">
+
+        <div class="col-6 sectionCol img-Main">
+
+          <img src="../assets/img/Girl-Illustration.png" alt="decoration">
+
+        </div>
+
+        <div class="col-5 offset-1 sectionCol d-flex flex-column justify-content-center">
+
+          <div class="mini-img-section">
+
+            <img src="../assets/img/Exam-icon-1.png" alt="page">
+
+          </div>
+
+          <div class="title d-flex">
+            
+            <h2>Variable fees for international students</h2>
+            
+          </div>
+
+          <div>
+
+            <p class="content d-flex justify-content-center">
+              
+              EduPrime has gathered teachers from around the 
+              globe to brainstorm in order to facilitate the
+              evaluation of our students. Every teacher from
+              our univeristy has an influence on hom students
+              are evaluated at his/her subject.
+            
+            </p>
+            
+          </div>
+
+          <div class="btn-container">
+
+            <button type="button" class="btn btn-dark btn-lg btn-ms btn-ms-b-red"><span>List of Fees</span></button>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="background-Subscribe">
+
+      <div class="space-layout-general marginZero">
+
+        <div class="row subscribe d-flex justify-content-between align-items-center">
+
+          <div class="col-6">
+
+            <h3>Subscribe Now to Our Newsletter!</h3>
+
+          </div>
+
+          <div class="col-5 offset-1 search">
+
+            <div class="searchBar">
+
+              <div class="btn-container">
+
+                <div class="searchBarSpan d-flex btn-ms">
+
+                  <span>Email address ...</span>
+
+                  <div class="searchBarButton btn-container">
+                    
+                    <div class="btn-msR">
+
+                      <i class="fab fa-telegram-plane"></i>
+
+                    </div>
+                    
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="space-layout-general end-main">
+
+      <div class="title">
+
+        <h2>Partners</h2>
+
+      </div>
+
+      <div class="description">
+
+        <p>
+
+          Leverage agile frameworks to provide 
+          a robust synopsis for high level
+          overviews. Iterative approaches to
+          corporate strategy.
+
+        </p>
+
+      </div>
+
+      <div class="row-cols-8 d-flex end-main-img">
+
+        <div class="col"><img src="../assets/img/partner-2.png" alt=""></div>
+
+        <div class="col"><img src="../assets/img/partner-3.png" alt=""></div>
+
+        <div class="col"><img src="../assets/img/partner-4.png" alt=""></div>
+
+        <div class="col"><img src="../assets/img/partner-5.png" alt=""></div>
+
+        <div class="col"><img src="../assets/img/partner-6.png" alt=""></div>
+
+        <div class="col"><img src="../assets/img/partner-8.png" alt=""></div>
+
+        <div class="col"><img src="../assets/img/partner-1.png" alt=""></div>
+
+        <div class="col"><img src="../assets/img/partner-7.png" alt=""></div>
+
+      </div>
+
+    </div>
+
+    <div class="end-main-wave">
+
+      <img src="../assets/img/background-wave3.png" alt="description">
+
+    </div>
 
   </div>
 
@@ -317,6 +791,7 @@ $secondColor: #e9d758;
 $thirdColor: #da5f60e6;
 $fourthColor: #8B8B8A;
 $fifthColor: #e56768;
+$sixthColor: #F7F8FA;
 //
 
   .background{
@@ -330,20 +805,30 @@ $fifthColor: #e56768;
 
     }
 
+    .img-Main{
+
+      max-width: 450px;
+
+      display: flex;
+      align-items: center;
+
+    }
+
+    .btn-ms-b-red{
+
+      background-color: $fifthColor!important;
+
+    }
+
     .backgroundImage{
 
       width: 100%;
+      height: 70%;
 
-      z-index: 1;
-
-      img{
-
-        /*Test*/
-        width: 100%;
-
-        display: none;
-
-      }
+      background-image: url("../assets/img/home-background.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
 
     }
 
@@ -355,7 +840,6 @@ $fifthColor: #e56768;
 
     .space-layout-general, .space-layout-section-main, .space-layout-general-marginZero{
 
-      z-index: 2;
       margin: 100px 0;
 
       .content{
@@ -411,6 +895,124 @@ $fifthColor: #e56768;
 
     }
 
+    .space-layout-general{
+      
+      .card{
+
+        padding: 20px 10px;
+
+        padding-bottom: 40px;
+
+        min-height: 262px;
+
+        max-height: 270px;
+
+      }
+
+      .space-card{
+
+        margin: 0 10px;
+
+      }
+
+      .space-card-r{
+
+        margin-left: 10px;
+
+      }
+
+      .space-card-l{
+
+        margin-right: 10px;
+
+      }
+
+      .card-courses{
+
+        margin-top: 50px;
+
+        .image-Card-Courses{
+
+          width: 60px;
+
+          margin: 5px auto;
+
+          img{
+
+            width: 100%;
+
+          }
+
+        }
+
+        .title{
+
+          text-align: center;
+
+          margin-top: 15px;
+         
+          h4{
+
+          font-size: 15px;
+          font-weight: bold;
+
+          }
+          
+        }
+
+        .teacher, .price{
+
+          text-align: center;
+
+          margin: 5px 0;
+
+          span{
+
+            font-size: 13px;
+
+            .bold{
+
+              font-weight: bold;
+
+            }
+
+          }
+
+        }
+
+        .btn-container{
+
+          .btn-card{
+
+            background-color: $fifthColor;
+            border: 1px solid $fifthColor;
+
+            width: 120px;
+
+            font-size: 13px;
+
+            padding: 7px 15px;
+
+            position: absolute;
+            top: 100%;
+            left: 50%;
+
+            transform: translate(-50%, -50%);
+
+            i{
+
+              font-size: 12px;
+
+            }
+
+          }
+
+        }
+
+      }
+
+    }
+
     .wave{
 
       width: 100%;
@@ -420,6 +1022,21 @@ $fifthColor: #e56768;
         width: 150%;
         position: relative;
         top: 3px;
+
+      }
+        
+    }
+
+    .wave-down{
+
+      width: 100%;
+
+      img{
+
+        width: 160%;
+        position: relative;
+        bottom: 3px;
+        right: 15px;
 
       }
         
@@ -483,13 +1100,13 @@ $fifthColor: #e56768;
         text-align: center;
         margin-bottom: 50px 0;
 
-        width: 250px;
         
         h3{
 
           font-size: 35px;
+          width: 250px;
 
-          background-color: red;
+          background-color: #db2a2c;
 
         }
 
@@ -498,7 +1115,6 @@ $fifthColor: #e56768;
       .title-two{
 
         margin-bottom: 50px 0;
-
 
         h3{
 
@@ -529,6 +1145,282 @@ $fifthColor: #e56768;
         text-align: center;
 
         font-size: 13px;
+
+      }
+
+      .card-section{
+
+        margin-top: 50px;
+
+        .btn-coachingSessions{
+
+          width: 100%;
+
+          margin-top: 50px;
+
+          .btn-container{
+
+            .btn-ms{
+
+              background-color: $secondColor;
+              border: 1px solid $secondColor;
+
+            }
+
+          }
+
+        }
+
+      }
+
+      .card{
+
+        background-color: $firstColor;
+        border-radius: 10px;
+
+        padding: 25px;
+
+        padding-bottom: 35px;
+
+        .title{
+
+          color: black;
+          
+          h4{
+
+            font-size: 25px;
+
+          }
+
+        }
+
+        .date{
+
+          color: $fourthColor;
+          text-align: center;
+
+          font-size: 12px;
+
+        }
+
+        .description{
+
+          color: $fourthColor;
+          font-size: 13px;
+          
+          text-align: center;
+
+        }
+
+        .btn-container{
+
+          .btn-card{
+
+            background-color: $fifthColor;
+            border: 1px solid black;
+
+            font-size: 13px;
+
+            padding: 7px 15px;
+
+            position: absolute;
+            top: 100%;
+            left: 50%;
+
+            transform: translate(-50%, -50%);
+
+            i{
+
+              font-size: 12px;
+
+            }
+
+          }
+
+        }
+
+      }
+
+    }
+
+    .background-Subscribe{
+
+      background-color: $thirdColor;
+
+      padding: 50px;
+
+      .marginZero{
+
+        margin: 0;
+
+        color: white;
+
+        .subscribe{
+
+          h3{
+
+            font-size: 25px;
+            text-align: center;
+
+          }
+
+        }
+
+        .search{
+
+          text-align: right;
+
+          .searchBar{
+
+            display: block;
+
+            margin-bottom: 15px;
+
+            .btn-container{
+
+              width: 100%;
+
+              flex-direction: column;
+
+              text-align: left;
+
+              align-items: end;
+
+              .searchBarSpan{
+
+                position: relative;
+                width: 100%;
+
+              }
+
+              .searchBarButton{
+
+                position: absolute;
+                top: 0;
+                left: 1px;
+
+                .btn-msR{
+
+                  width: 62px;
+                  height: 62px;
+
+                  border-radius: 50%;
+
+                  text-align: center;
+
+                  background-color: $secondColor;
+                  border: $secondColor;
+                  color: $firstColor;
+
+                  font-size: 15px;
+
+                  padding: 20px 20px;
+
+                  transform: scale(103%);
+
+                  i{
+
+                    transform: scale(1.5);
+
+                  }
+
+                }
+
+              }
+
+              .btn-ms{
+
+                background-color: $firstColor;
+                border: $firstColor;
+                color: $fourthColor;
+
+                font-size: 15px;
+
+                padding: 20px 20px;
+
+              }
+
+            }
+
+          }
+
+          .searchCategories{
+
+            font-weight: bold;
+
+            margin: 15px 0;
+
+          }
+
+        }
+
+      }
+
+    }
+
+    .end-main{
+
+      .title, .description{
+
+        text-align: center;
+
+      }
+
+      .title{
+
+        h2{
+
+          font-size: 40px;
+
+        }
+
+      }
+
+      .description{
+
+        width: 500px;
+
+        margin: 40px auto;
+
+      }
+
+      .end-main-img{
+
+        .col{
+
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          img {
+
+            max-height: 50px;
+            width: auto;
+
+            transform: scale(90%);
+            
+            filter: opacity(30%);
+
+          }
+
+        }
+
+      }
+
+    }
+
+    .end-main-wave{
+
+      width: 100%;
+
+      height: 300px;
+      background-color: $sixthColor;
+      position: relative;
+
+      img{
+
+        width: 115%;
+        height: 100%;
 
       }
 
