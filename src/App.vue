@@ -1,23 +1,11 @@
 <template>
   <div id="app">
 
-    <header>
-
-      <Header :headerD = headerData />
-
-    </header>
-
-    <main>
+    <Header :headerD = headerData />
 
     <Main />
 
-    </main>
-
-    <footer>
-
-      <Footer :footerD = footerData />
-
-    </footer>
+    <Footer :footerD = footerData />
 
   </div>
 </template>
@@ -28,8 +16,6 @@ import Main from "./components/Main.vue";
 import Footer from "./components/Footer.vue";
 import "./assets/general.scss";
 import "./assets/color.scss";
-
-
 
 export default {
   name: "App",

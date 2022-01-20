@@ -1,129 +1,129 @@
 <template>
-    
-  <div class="background">
+  <footer>
+    <div class="background">
 
-    <div class="row space-layout-general">
+      <div class="row space-layout-general">
 
-      <div class="col-4 social">
+        <div class="col-4 social">
 
-        <img src="../assets/img/theme_eduprime_logo.png" alt="logo">
+          <img src="../assets/img/theme_eduprime_logo.png" alt="logo">
 
-        <p>EduPrime is the most versatile WordPress theme for educational purposes, showcasing universities, courses, secondary schools etc.</p>
+          <p>EduPrime is the most versatile WordPress theme for educational purposes, showcasing universities, courses, secondary schools etc.</p>
 
-        <ul class="d-flex">
+          <ul class="d-flex">
 
-          <li><i class="fab fa-facebook-f"></i></li>
+            <li><i class="fab fa-facebook-f"></i></li>
 
-          <li><i class="fab fa-twitter"></i></li>
+            <li><i class="fab fa-twitter"></i></li>
 
-          <li><i class="fab fa-instagram"></i></li>
-
-        </ul>
-
-      </div>
-
-      <div class="col-4 link d-flex">
-
-        <div class="link-container">
-
-          <ul>
-
-            <li class="title">Get EduPrime</li>
-
-            <li v-for="(linkOneD, index) in footerD.footerDataLinkOne" :key="index" >{{ linkOneD }}</li>
-
+            <li><i class="fab fa-instagram"></i></li>
 
           </ul>
 
         </div>
 
-        <div class="link-container">
+        <div class="col-4 link d-flex">
 
-          <ul>
+          <div class="link-container">
 
-            <li class="title">Networking</li>
+            <ul>
 
-            <li v-for="(linkTwoD, index) in footerD.footerDataLinkTwo" :key="index" >{{ linkTwoD }}</li>
+              <li class="title">Get EduPrime</li>
 
-          </ul>
-          
+              <li v-for="(linkOneD, index) in footerD.footerDataLinkOne" :key="index" >{{ linkOneD }}</li>
+
+
+            </ul>
+
+          </div>
+
+          <div class="link-container">
+
+            <ul>
+
+              <li class="title">Networking</li>
+
+              <li v-for="(linkTwoD, index) in footerD.footerDataLinkTwo" :key="index" >{{ linkTwoD }}</li>
+
+            </ul>
+            
+          </div>
+
+
         </div>
 
+        <div class="col-4 search">
 
-      </div>
+          <div class="searchBar">
 
-      <div class="col-4 search">
+            <div class="btn-container">
 
-        <div class="searchBar">
+              <div class="searchBarSpan d-flex btn-ms">
 
-          <div class="btn-container">
+                <span>Search ...</span>
 
-            <div class="searchBarSpan d-flex btn-ms">
+                <div class="searchBarButton btn-container">
+                  
+                  <div class="btn-msR">
 
-              <span>Search ...</span>
+                    <i class="fas fa-search"></i>
 
-              <div class="searchBarButton btn-container">
-                
-                <div class="btn-msR">
-
-                  <i class="fas fa-search"></i>
-
+                  </div>
+                  
                 </div>
-                
+
               </div>
 
             </div>
 
           </div>
 
-        </div>
+          <span class="searchCategories">Search categories</span>
 
-        <span class="searchCategories">Search categories</span>
+          <div class="categories d-flex">
 
-        <div class="categories d-flex">
+            <div v-for="(categories, index) in footerD.footerDataCategories" :key="index" class="btn-container">
 
-          <div v-for="(categories, index) in footerD.footerDataCategories" :key="index" class="btn-container">
+              <div class="btn btn-ms">{{ categories }}</div>
 
-            <div class="btn btn-ms">{{ categories }}</div>
+            </div>
 
           </div>
 
+          <span class="rights">ModelTheme, All rights reserved.</span>
+
         </div>
 
-        <span class="rights">ModelTheme, All rights reserved.</span>
+      </div>
+
+      <div class="themes">
+
+        <div class="purchase-theme">
+
+          <div class="imgTheme"><img src="../assets/svg/svg-3.svg" alt=""></div>
+          
+          <span>Purchase Theme</span>
+
+        </div>
+
+        <div class="related-themes">
+
+          <div class="imgTheme"><img src="../assets/svg/svg-2.svg" alt=""></div>
+          
+          <span>Realated Themes</span>
+
+        </div>
+
+      </div>
+
+      <div class="angle-up">
+
+        <a href="#"><i class="fas fa-angle-up"></i></a>
 
       </div>
 
     </div>
-
-    <div class="themes">
-
-      <div class="purchase-theme">
-
-        <div class="imgTheme"><img src="../assets/svg/svg-3.svg" alt=""></div>
-        
-        <span>Purchase Theme</span>
-
-      </div>
-
-      <div class="related-themes">
-
-        <div class="imgTheme"><img src="../assets/svg/svg-2.svg" alt=""></div>
-        
-        <span>Realated Themes</span>
-
-      </div>
-
-    </div>
-
-    <div class="angle-up">
-
-      <a href="#"><i class="fas fa-angle-up"></i></a>
-
-    </div>
-
-  </div>
-
+  </footer>
 </template>
 
 <script>
@@ -140,17 +140,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
-// General Color
-$firstColor: white;
-$secondColor: #e9d758;
-$thirdColor: #da5f60e6;
-$fourthColor: #8B8B8A;
-$fifthColor: #e56768;
-$sixthColor: #F7F8FA;
-$seventhColor: #454545;
-$eighthColor: #dd3333;
-//
+@import "../assets/color.scss";
 
 .background{
 

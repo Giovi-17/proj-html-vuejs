@@ -1,8 +1,628 @@
 <template>
-    
-  <div class="background">
+  <main>
+    <div class="background">
 
-    <div class="backgroundImage">
+      <div class="backgroundImage">
+
+        <div class="space-layout-general">
+
+          <div class="row d-flex justify-content-center">
+
+            <div class="col-6 sectionCol d-flex flex-column justify-content-center">
+
+              <div class="mini-img-section">
+
+                <img src="../assets/img/Books-icon.png" alt="books">
+
+              </div>
+
+              <div class="title d-flex">
+                
+                <h2>Thousands of courses for any type of student</h2>
+                
+              </div>
+
+              <div>
+
+                <p class="content d-flex justify-content-center">
+                  
+                  At EduPrime, it doesn't matter what domain you wish
+                  to pursue a career in. Here you can find a course that 
+                  satisfies your needs within a click away and applies for 
+                  a course in a matter of minutes. EduPrime is ranked as 
+                  the most versatile univeristy in the world, thanks to 
+                  the number of courses it provides.
+                
+                </p>
+                
+              </div>
+
+              <div class="btn-container">
+
+                <button type="button" class="btn btn-dark btn-lg btn-ms btn-ms-b-yellow hoverColor-RedPlus"><span>Browse through courses</span></button>
+
+              </div>
+
+            </div>
+
+            <div class="col-5 offset-1 sectionCol img-Main">
+
+              <img src="../assets/img/Graduation-Illustration.png" alt="decoration">
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="space-layout-general">
+
+        <div class="title d-flex justify-content-center">
+              
+          <h2>Faculties available at EduPrime</h2>
+              
+        </div>
+
+        <div>
+
+          <p class="content content-space d-flex justify-content-center">
+                
+            A single university with a load of courses, tailored to satisfy any student's needs.
+              
+          </p>
+              
+        </div>
+
+      </div>
+
+      <div class="facultiesContainer">
+
+        <div class="space-layout-general">
+
+          <div class="row-cols-5 d-flex">
+
+            <div class="col facultiesContainerCol inverted d-flex flex-column justify-content-center align-items-center">
+
+              <div class="facultiesImg"><img src="../assets/img/Gavel-v2.png" alt=""></div>
+
+              <div class="faculties">Law Faculty</div>
+
+              <div class="square"></div>
+
+            </div>
+
+            <div class="col facultiesContainerCol d-flex flex-column justify-content-center align-items-center">
+
+              <div class="facultiesImg"><img src="../assets/img/Coins-tabs-v2.png" alt=""></div>
+
+              <div class="faculties">Economy</div>
+
+            </div>
+
+            <div class="col facultiesContainerCol d-flex flex-column justify-content-center align-items-center">
+
+              <div class="facultiesImg"><img src="../assets/img/Medicine-tabs-v2.png" alt=""></div>
+
+              <div class="faculties">Medicine</div>
+
+            </div>
+
+            <div class="col facultiesContainerCol d-flex flex-column justify-content-center align-items-center">
+
+              <div class="facultiesImg"><img src="../assets/img/Computer-tabs-v2.png" alt=""></div>
+
+              <div class="faculties">Computer Scienze</div>
+
+            </div>
+
+            <div class="col facultiesContainerCol d-flex flex-column justify-content-center align-items-center">
+
+              <div class="facultiesImg"><img src="../assets/img/Palette-tabs-v2.png" alt=""></div>
+
+              <div class="faculties">Graphic Design</div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="space-layout-section-main">
+
+        <div class="row d-flex justify-content-evenly">
+
+          <div class="col-6 sectionCol img-Main">
+
+            <img src="../assets/img/Gavel-Illustration-e1556884768193.png" alt="decoration">
+
+          </div>
+
+          <div class="col-5 offset-1 sectionCol d-flex flex-column justify-content-center">
+
+            <div class="title d-flex">
+              
+              <h3>Law Faculty</h3>
+              
+            </div>
+
+            <div>
+
+              <p class="content d-flex justify-content-center">
+                
+                Learning from world-leading academics and practitioners,
+                you'll not only receive an outstanding grounding in the
+                theory of law, but you will be able to understand
+                how those principles are applied in practice through
+                a range of student-led activities and competitions.
+              
+              </p>
+              
+            </div>
+
+            <div class="btn-container">
+
+              <button type="button" class="btn btn-dark btn-lg btn-ms"><span>Read More</span></button>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="wave">
+
+        <img src="../assets/svg/svg-0.svg" alt="decoration">
+
+      </div>
+
+      <div class="background-space-layout-general">
+
+        <div class="space-layout-general-marginZero">
+
+          <div class="mini-img">
+
+            <img src="../assets/img/Clock-and-Bell.png" alt="">
+
+          </div>
+
+          <div class="d-flex justify-content-center">
+
+            <div class="title">
+
+              <h3>University Year</h3>
+
+            </div>
+
+          </div>
+
+          <div class="spaceMargin">
+            
+            <div class="row">
+
+              <div class="col-3 offset-3">
+
+                <div class="colTitle">
+
+                  <span>Demo Classes</span>
+
+                </div>
+
+                <div class="colP">
+                  
+                  <span>
+                    
+                    In the first week, students try to accommodate
+                    with the teaching style and choose their 
+                    optional courses.
+                    
+                  </span>
+                  
+                </div>
+
+              </div>
+
+              <div class="col-3 offset-2">
+
+                <div class="colTitle">
+
+                  <span>Graduation Day</span>
+
+                </div>
+
+                <div class="colP">
+                  
+                  <span>
+                    
+                    On the day of graduation, all students gather 
+                    for the ceremony and then network and 
+                    party among others. 
+                    
+                  </span>
+                  
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="graphic">
+
+            <img src="../assets/img/Timeline-Item.png" alt="">
+
+          </div>
+
+          <div class="spaceMargin">
+            
+            <div class="row">
+
+              <div class="col-3 offset-1">
+
+                <div class="colTitle">
+
+                  <span>Orientation</span>
+
+                </div>
+
+                <div class="colP">
+                  
+                  <span>
+                    
+                    First day of the university year, all students 
+                    gather for the opening ceremony and then 
+                    network with others.
+                    
+                  </span>
+                  
+                </div>
+
+              </div>
+
+              <div class="col-3 offset-2">
+
+                <div class="colTitle">
+
+                  <span>Evaluation</span>
+
+                </div>
+
+                <div class="colP">
+                  
+                  <span>
+                    
+                    At the end of a semester, students take a 
+                    general evaluation test for every subject 
+                    they're learning.
+                    
+                  </span>
+                  
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="background-space-layout-general">
+
+            <div class="space-layout-general-marginZero">
+
+              <div class="mini-img">
+
+                <img src="../assets/img/upcoming-events-calendar-icon.png" alt="">
+
+              </div>
+
+            </div>  
+
+              <div class="d-flex justify-content-center">
+
+                <div class="title-two">
+
+                  <h3>Upcoming Events</h3>
+
+                </div>
+
+              </div>
+
+            <div class="row card-section d-flex justify-content-center">
+
+              <div class="col-3">
+
+                <div class="card">
+
+                  <div class="title">
+
+                    <h4>Coaching Sessions</h4>
+
+                  </div>
+
+                  <div class="date">
+
+                    <i class="far fa-calendar-alt"></i><span> 20 May 21:30 PM</span>
+
+                  </div>
+
+                  <div class="description">
+
+                    Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit, sed do eiusmod tempor[...]
+
+                  </div>
+
+                  <div class="btn-container">
+
+                    <button type="button" class="btn btn-dark btn-ms btn-card"><i class="fas fa-plus"></i><span> Find More</span></button>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+              <div class="col-3 offset-1">
+
+                <div class="card">
+
+                  <div class="title">
+
+                    <h4>Coaching Sessions</h4>
+
+                  </div>
+
+                  <div class="date">
+
+                    <i class="far fa-calendar-alt"></i><span> 24 Mar 18:00 PM</span>
+
+                  </div>
+
+                  <div class="description">
+
+                    Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit, sed do eiusmod tempor[...]
+
+                  </div>
+
+                  <div class="btn-container">
+
+                    <button type="button" class="btn btn-dark btn-ms btn-card"><i class="fas fa-plus"></i><span> Find More</span></button>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+              <div class="col-3 offset-1">
+
+                <div class="card">
+
+                  <div class="title">
+
+                    <h4>Coaching Sessions</h4>
+
+                  </div>
+
+                  <div class="date">
+
+                    <i class="far fa-calendar-alt"></i><span> 12 Feb 13:30 PM</span>
+
+                  </div>
+
+                  <div class="description">
+
+                    Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit, sed do eiusmod tempor[...]
+
+                  </div>
+
+                  <div class="btn-container">
+
+                    <button type="button" class="btn btn-dark btn-ms btn-card"><i class="fas fa-plus"></i><span> Find More</span></button>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+              <div class="btn-coachingSessions">
+
+                <div class="btn-container">
+
+                  <button type="button" class="btn btn-dark btn-ms btn-ms-b-yellow hoverColor-Red"><span>View All Events</span></button>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="wave-down">
+
+        <img src="../assets/svg/svg-1.svg" alt="decoration">
+
+      </div>
+
+      <div class="space-layout-general">
+
+        <div>
+
+          <h2>Latest Courses</h2>
+
+        </div>
+
+        <div class="row card-courses d-flex justify-content-center">
+
+              <div class="col-3">
+
+                <div class="card space-card-l">
+
+                  <div class="image-Card-Courses">
+
+                    <img src="../assets/img/Decisions-icon.png" alt="">
+
+                  </div>
+
+                  <div class="title">
+
+                    <h4>Make Better Decisions</h4>
+
+                  </div>
+
+                  <div class="teacher">
+
+                    <i class="far fa-user"></i><span> Teacher: <span class="bold">James Colins</span></span>
+
+                  </div>
+
+                  <div class="price">
+
+                    <i class="far fa-money-bill-alt"></i><span> Price: <span class="bold">$21.00</span></span>
+
+                  </div>
+
+                  <div class="btn-container">
+
+                    <button type="button" class="btn btn-dark btn-ms btn-card"><i class="far fa-eye"></i><span> View Course</span></button>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+              <div class="col-3">
+
+                <div class="card space-card">
+
+                  <div class="image-Card-Courses">
+
+                    <img src="../assets/img/Speaker-icon.png" alt="">
+
+                  </div>
+
+                  <div class="title">
+
+                    <h4>How to be a speaker</h4>
+
+                  </div>
+
+                  <div class="teacher">
+
+                    <i class="far fa-user"></i><span> Teacher: <span class="bold">James Colins</span></span>
+
+                  </div>
+
+                  <div class="price">
+
+                    <i class="far fa-money-bill-alt"></i><span> Price: <span class="bold">Free</span></span>
+
+                  </div>
+
+                  <div class="btn-container">
+
+                    <button type="button" class="btn btn-dark btn-ms btn-card"><i class="far fa-eye"></i><span> View Course</span></button>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+              <div class="col-3">
+
+                <div class="card space-card">
+
+                  <div class="image-Card-Courses">
+
+                    <img src="../assets/img/Network-icon.png" alt="">
+
+                  </div>
+
+                  <div class="title">
+
+                    <h4>Network Introductions</h4>
+
+                  </div>
+
+                  <div class="teacher">
+
+                    <i class="far fa-user"></i><span> Teacher: <span class="bold">James Colins</span></span>
+
+                  </div>
+
+                  <div class="price">
+
+                    <i class="far fa-money-bill-alt"></i><span> Price: <span class="bold">Free</span></span>
+
+                  </div>
+
+                  <div class="btn-container">
+
+                    <button type="button" class="btn btn-dark btn-ms btn-card"><i class="far fa-eye"></i><span> View Course</span></button>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+              <div class="col-3">
+
+                <div class="card space-card-r">
+
+                  <div class="image-Card-Courses">
+
+                    <img src="../assets/img/Brand-icon.png" alt="">
+
+                  </div>
+
+                  <div class="title">
+
+                    <h4>Brand Management</h4>
+
+                  </div>
+
+                  <div class="teacher">
+
+                    <i class="far fa-user"></i><span> Teacher: <span class="bold">James Colins</span></span>
+
+                  </div>
+
+                  <div class="price">
+
+                    <i class="far fa-money-bill-alt"></i><span> Price: <span class="bold">Free</span></span>
+
+                  </div>
+
+                  <div class="btn-container">
+
+                    <button type="button" class="btn btn-dark btn-ms btn-card"><i class="far fa-eye"></i><span> View Course</span></button>
+
+                  </div>
+
+                </div>
+
+              </div>
+              
+        </div>
+
+      </div>
 
       <div class="space-layout-general">
 
@@ -12,13 +632,13 @@
 
             <div class="mini-img-section">
 
-              <img src="../assets/img/Books-icon.png" alt="books">
+              <img src="../assets/img/Exam-icon.png" alt="page">
 
             </div>
 
             <div class="title d-flex">
               
-              <h2>Thousands of courses for any type of student</h2>
+              <h2>The most efficient examination method</h2>
               
             </div>
 
@@ -26,12 +646,11 @@
 
               <p class="content d-flex justify-content-center">
                 
-                At EduPrime, it doesn't matter what domain you wish
-                to pursue a career in. Here you can find a course that 
-                satisfies your needs within a click away and applies for 
-                a course in a matter of minutes. EduPrime is ranked as 
-                the most versatile univeristy in the world, thanks to 
-                the number of courses it provides.
+                EduPrime has gathered teachers from around the 
+                globe to brainstorm in order to facilitate the
+                evaluation of our students. Every teacher from
+                our univeristy has an influence on hom students
+                are evaluated at his/her subject.
               
               </p>
               
@@ -39,7 +658,7 @@
 
             <div class="btn-container">
 
-              <button type="button" class="btn btn-dark btn-lg btn-ms btn-ms-b-yellow hoverColor-RedPlus"><span>Browse through courses</span></button>
+              <button type="button" class="btn btn-dark btn-lg btn-ms btn-ms-b-red hoverColor-Yellow"><span>Discover the Method</span></button>
 
             </div>
 
@@ -47,674 +666,57 @@
 
           <div class="col-5 offset-1 sectionCol img-Main">
 
-            <img src="../assets/img/Graduation-Illustration.png" alt="decoration">
+            <img src="../assets/img/Exam-Illustration.png" alt="decoration">
 
           </div>
 
         </div>
 
       </div>
-
-    </div>
-
-    <div class="space-layout-general">
-
-      <div class="title d-flex justify-content-center">
-            
-        <h2>Faculties available at EduPrime</h2>
-            
-      </div>
-
-      <div>
-
-        <p class="content content-space d-flex justify-content-center">
-              
-          A single university with a load of courses, tailored to satisfy any student's needs.
-            
-        </p>
-            
-      </div>
-
-    </div>
-
-    <div class="facultiesContainer">
 
       <div class="space-layout-general">
 
-        <div class="row-cols-5 d-flex">
+        <div class="row d-flex justify-content-center">
 
-          <div class="col facultiesContainerCol inverted d-flex flex-column justify-content-center align-items-center">
+          <div class="col-6 sectionCol img-Main">
 
-            <div class="facultiesImg"><img src="../assets/img/Gavel-v2.png" alt=""></div>
-
-            <div class="faculties">Law Faculty</div>
-
-            <div class="square"></div>
+            <img src="../assets/img/Girl-Illustration.png" alt="decoration">
 
           </div>
 
-          <div class="col facultiesContainerCol d-flex flex-column justify-content-center align-items-center">
+          <div class="col-5 offset-1 sectionCol d-flex flex-column justify-content-center">
 
-            <div class="facultiesImg"><img src="../assets/img/Coins-tabs-v2.png" alt=""></div>
+            <div class="mini-img-section">
 
-            <div class="faculties">Economy</div>
+              <img src="../assets/img/Exam-icon-1.png" alt="page">
 
-          </div>
+            </div>
 
-          <div class="col facultiesContainerCol d-flex flex-column justify-content-center align-items-center">
-
-            <div class="facultiesImg"><img src="../assets/img/Medicine-tabs-v2.png" alt=""></div>
-
-            <div class="faculties">Medicine</div>
-
-          </div>
-
-          <div class="col facultiesContainerCol d-flex flex-column justify-content-center align-items-center">
-
-            <div class="facultiesImg"><img src="../assets/img/Computer-tabs-v2.png" alt=""></div>
-
-            <div class="faculties">Computer Scienze</div>
-
-          </div>
-
-          <div class="col facultiesContainerCol d-flex flex-column justify-content-center align-items-center">
-
-            <div class="facultiesImg"><img src="../assets/img/Palette-tabs-v2.png" alt=""></div>
-
-            <div class="faculties">Graphic Design</div>
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </div>
-
-    <div class="space-layout-section-main">
-
-      <div class="row d-flex justify-content-evenly">
-
-        <div class="col-6 sectionCol img-Main">
-
-          <img src="../assets/img/Gavel-Illustration-e1556884768193.png" alt="decoration">
-
-        </div>
-
-        <div class="col-5 offset-1 sectionCol d-flex flex-column justify-content-center">
-
-          <div class="title d-flex">
-            
-            <h3>Law Faculty</h3>
-            
-          </div>
-
-          <div>
-
-            <p class="content d-flex justify-content-center">
+            <div class="title d-flex">
               
-              Learning from world-leading academics and practitioners,
-              you'll not only receive an outstanding grounding in the
-              theory of law, but you will be able to understand
-              how those principles are applied in practice through
-              a range of student-led activities and competitions.
-            
-            </p>
-            
-          </div>
-
-          <div class="btn-container">
-
-            <button type="button" class="btn btn-dark btn-lg btn-ms"><span>Read More</span></button>
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </div>
-
-    <div class="wave">
-
-      <img src="../assets/svg/svg-0.svg" alt="decoration">
-
-    </div>
-
-    <div class="background-space-layout-general">
-
-      <div class="space-layout-general-marginZero">
-
-        <div class="mini-img">
-
-          <img src="../assets/img/Clock-and-Bell.png" alt="">
-
-        </div>
-
-        <div class="d-flex justify-content-center">
-
-          <div class="title">
-
-            <h3>University Year</h3>
-
-          </div>
-
-        </div>
-
-        <div class="spaceMargin">
-          
-          <div class="row">
-
-            <div class="col-3 offset-3">
-
-              <div class="colTitle">
-
-                <span>Demo Classes</span>
-
-              </div>
-
-              <div class="colP">
-                
-                <span>
-                  
-                  In the first week, students try to accommodate
-                  with the teaching style and choose their 
-                  optional courses.
-                  
-                </span>
-                
-              </div>
-
-            </div>
-
-            <div class="col-3 offset-2">
-
-              <div class="colTitle">
-
-                <span>Graduation Day</span>
-
-              </div>
-
-              <div class="colP">
-                
-                <span>
-                  
-                  On the day of graduation, all students gather 
-                  for the ceremony and then network and 
-                  party among others. 
-                  
-                </span>
-                
-              </div>
-
-            </div>
-
-          </div>
-
-        </div>
-
-        <div class="graphic">
-
-          <img src="../assets/img/Timeline-Item.png" alt="">
-
-        </div>
-
-        <div class="spaceMargin">
-          
-          <div class="row">
-
-            <div class="col-3 offset-1">
-
-              <div class="colTitle">
-
-                <span>Orientation</span>
-
-              </div>
-
-              <div class="colP">
-                
-                <span>
-                  
-                  First day of the university year, all students 
-                  gather for the opening ceremony and then 
-                  network with others.
-                  
-                </span>
-                
-              </div>
-
-            </div>
-
-            <div class="col-3 offset-2">
-
-              <div class="colTitle">
-
-                <span>Evaluation</span>
-
-              </div>
-
-              <div class="colP">
-                
-                <span>
-                  
-                  At the end of a semester, students take a 
-                  general evaluation test for every subject 
-                  they're learning.
-                  
-                </span>
-                
-              </div>
-
-            </div>
-
-          </div>
-
-        </div>
-
-        <div class="background-space-layout-general">
-
-          <div class="space-layout-general-marginZero">
-
-            <div class="mini-img">
-
-              <img src="../assets/img/upcoming-events-calendar-icon.png" alt="">
-
-            </div>
-
-          </div>  
-
-            <div class="d-flex justify-content-center">
-
-              <div class="title-two">
-
-                <h3>Upcoming Events</h3>
-
-              </div>
-
-            </div>
-
-          <div class="row card-section d-flex justify-content-center">
-
-            <div class="col-3">
-
-              <div class="card">
-
-                <div class="title">
-
-                  <h4>Coaching Sessions</h4>
-
-                </div>
-
-                <div class="date">
-
-                  <i class="far fa-calendar-alt"></i><span> 20 May 21:30 PM</span>
-
-                </div>
-
-                <div class="description">
-
-                  Lorem ipsum dolor sit amet, consectetur
-                  adipiscing elit, sed do eiusmod tempor[...]
-
-                </div>
-
-                <div class="btn-container">
-
-                  <button type="button" class="btn btn-dark btn-ms btn-card"><i class="fas fa-plus"></i><span> Find More</span></button>
-
-                </div>
-
-              </div>
-
-            </div>
-
-            <div class="col-3 offset-1">
-
-              <div class="card">
-
-                <div class="title">
-
-                  <h4>Coaching Sessions</h4>
-
-                </div>
-
-                <div class="date">
-
-                  <i class="far fa-calendar-alt"></i><span> 24 Mar 18:00 PM</span>
-
-                </div>
-
-                <div class="description">
-
-                  Lorem ipsum dolor sit amet, consectetur
-                  adipiscing elit, sed do eiusmod tempor[...]
-
-                </div>
-
-                <div class="btn-container">
-
-                  <button type="button" class="btn btn-dark btn-ms btn-card"><i class="fas fa-plus"></i><span> Find More</span></button>
-
-                </div>
-
-              </div>
-
-            </div>
-
-            <div class="col-3 offset-1">
-
-              <div class="card">
-
-                <div class="title">
-
-                  <h4>Coaching Sessions</h4>
-
-                </div>
-
-                <div class="date">
-
-                  <i class="far fa-calendar-alt"></i><span> 12 Feb 13:30 PM</span>
-
-                </div>
-
-                <div class="description">
-
-                  Lorem ipsum dolor sit amet, consectetur
-                  adipiscing elit, sed do eiusmod tempor[...]
-
-                </div>
-
-                <div class="btn-container">
-
-                  <button type="button" class="btn btn-dark btn-ms btn-card"><i class="fas fa-plus"></i><span> Find More</span></button>
-
-                </div>
-
-              </div>
-
-            </div>
-
-            <div class="btn-coachingSessions">
-
-              <div class="btn-container">
-
-                <button type="button" class="btn btn-dark btn-ms btn-ms-b-yellow hoverColor-Red"><span>View All Events</span></button>
-
-              </div>
-
-            </div>
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </div>
-
-    <div class="wave-down">
-
-      <img src="../assets/svg/svg-1.svg" alt="decoration">
-
-    </div>
-
-    <div class="space-layout-general">
-
-      <div>
-
-        <h2>Latest Courses</h2>
-
-      </div>
-
-      <div class="row card-courses d-flex justify-content-center">
-
-            <div class="col-3">
-
-              <div class="card space-card-l">
-
-                <div class="image-Card-Courses">
-
-                  <img src="../assets/img/Decisions-icon.png" alt="">
-
-                </div>
-
-                <div class="title">
-
-                  <h4>Make Better Decisions</h4>
-
-                </div>
-
-                <div class="teacher">
-
-                  <i class="far fa-user"></i><span> Teacher: <span class="bold">James Colins</span></span>
-
-                </div>
-
-                <div class="price">
-
-                  <i class="far fa-money-bill-alt"></i><span> Price: <span class="bold">$21.00</span></span>
-
-                </div>
-
-                <div class="btn-container">
-
-                  <button type="button" class="btn btn-dark btn-ms btn-card"><i class="far fa-eye"></i><span> View Course</span></button>
-
-                </div>
-
-              </div>
-
-            </div>
-
-            <div class="col-3">
-
-              <div class="card space-card">
-
-                <div class="image-Card-Courses">
-
-                  <img src="../assets/img/Speaker-icon.png" alt="">
-
-                </div>
-
-                <div class="title">
-
-                  <h4>How to be a speaker</h4>
-
-                </div>
-
-                <div class="teacher">
-
-                  <i class="far fa-user"></i><span> Teacher: <span class="bold">James Colins</span></span>
-
-                </div>
-
-                <div class="price">
-
-                  <i class="far fa-money-bill-alt"></i><span> Price: <span class="bold">Free</span></span>
-
-                </div>
-
-                <div class="btn-container">
-
-                  <button type="button" class="btn btn-dark btn-ms btn-card"><i class="far fa-eye"></i><span> View Course</span></button>
-
-                </div>
-
-              </div>
-
-            </div>
-
-            <div class="col-3">
-
-              <div class="card space-card">
-
-                <div class="image-Card-Courses">
-
-                  <img src="../assets/img/Network-icon.png" alt="">
-
-                </div>
-
-                <div class="title">
-
-                  <h4>Network Introductions</h4>
-
-                </div>
-
-                <div class="teacher">
-
-                  <i class="far fa-user"></i><span> Teacher: <span class="bold">James Colins</span></span>
-
-                </div>
-
-                <div class="price">
-
-                  <i class="far fa-money-bill-alt"></i><span> Price: <span class="bold">Free</span></span>
-
-                </div>
-
-                <div class="btn-container">
-
-                  <button type="button" class="btn btn-dark btn-ms btn-card"><i class="far fa-eye"></i><span> View Course</span></button>
-
-                </div>
-
-              </div>
-
-            </div>
-
-            <div class="col-3">
-
-              <div class="card space-card-r">
-
-                <div class="image-Card-Courses">
-
-                  <img src="../assets/img/Brand-icon.png" alt="">
-
-                </div>
-
-                <div class="title">
-
-                  <h4>Brand Management</h4>
-
-                </div>
-
-                <div class="teacher">
-
-                  <i class="far fa-user"></i><span> Teacher: <span class="bold">James Colins</span></span>
-
-                </div>
-
-                <div class="price">
-
-                  <i class="far fa-money-bill-alt"></i><span> Price: <span class="bold">Free</span></span>
-
-                </div>
-
-                <div class="btn-container">
-
-                  <button type="button" class="btn btn-dark btn-ms btn-card"><i class="far fa-eye"></i><span> View Course</span></button>
-
-                </div>
-
-              </div>
-
-            </div>
-            
-      </div>
-
-    </div>
-
-    <div class="space-layout-general">
-
-      <div class="row d-flex justify-content-center">
-
-        <div class="col-6 sectionCol d-flex flex-column justify-content-center">
-
-          <div class="mini-img-section">
-
-            <img src="../assets/img/Exam-icon.png" alt="page">
-
-          </div>
-
-          <div class="title d-flex">
-            
-            <h2>The most efficient examination method</h2>
-            
-          </div>
-
-          <div>
-
-            <p class="content d-flex justify-content-center">
+              <h2>Variable fees for international students</h2>
               
-              EduPrime has gathered teachers from around the 
-              globe to brainstorm in order to facilitate the
-              evaluation of our students. Every teacher from
-              our univeristy has an influence on hom students
-              are evaluated at his/her subject.
-            
-            </p>
-            
-          </div>
+            </div>
 
-          <div class="btn-container">
+            <div>
 
-            <button type="button" class="btn btn-dark btn-lg btn-ms btn-ms-b-red hoverColor-Yellow"><span>Discover the Method</span></button>
-
-          </div>
-
-        </div>
-
-        <div class="col-5 offset-1 sectionCol img-Main">
-
-          <img src="../assets/img/Exam-Illustration.png" alt="decoration">
-
-        </div>
-
-      </div>
-
-    </div>
-
-    <div class="space-layout-general">
-
-      <div class="row d-flex justify-content-center">
-
-        <div class="col-6 sectionCol img-Main">
-
-          <img src="../assets/img/Girl-Illustration.png" alt="decoration">
-
-        </div>
-
-        <div class="col-5 offset-1 sectionCol d-flex flex-column justify-content-center">
-
-          <div class="mini-img-section">
-
-            <img src="../assets/img/Exam-icon-1.png" alt="page">
-
-          </div>
-
-          <div class="title d-flex">
-            
-            <h2>Variable fees for international students</h2>
-            
-          </div>
-
-          <div>
-
-            <p class="content d-flex justify-content-center">
+              <p class="content d-flex justify-content-center">
+                
+                EduPrime has gathered teachers from around the 
+                globe to brainstorm in order to facilitate the
+                evaluation of our students. Every teacher from
+                our univeristy has an influence on hom students
+                are evaluated at his/her subject.
               
-              EduPrime has gathered teachers from around the 
-              globe to brainstorm in order to facilitate the
-              evaluation of our students. Every teacher from
-              our univeristy has an influence on hom students
-              are evaluated at his/her subject.
-            
-            </p>
-            
-          </div>
+              </p>
+              
+            </div>
 
-          <div class="btn-container">
+            <div class="btn-container">
 
-            <button type="button" class="btn btn-dark btn-lg btn-ms btn-ms-b-red hoverColor-Yellow"><span>List of Fees</span></button>
+              <button type="button" class="btn btn-dark btn-lg btn-ms btn-ms-b-red hoverColor-Yellow"><span>List of Fees</span></button>
+
+            </div>
 
           </div>
 
@@ -722,38 +724,38 @@
 
       </div>
 
-    </div>
+      <div class="background-Subscribe">
 
-    <div class="background-Subscribe">
+        <div class="space-layout-general marginZero">
 
-      <div class="space-layout-general marginZero">
+          <div class="row subscribe d-flex justify-content-between align-items-center">
 
-        <div class="row subscribe d-flex justify-content-between align-items-center">
+            <div class="col-6">
 
-          <div class="col-6">
+              <h3>Subscribe Now to Our Newsletter!</h3>
 
-            <h3>Subscribe Now to Our Newsletter!</h3>
+            </div>
 
-          </div>
+            <div class="col-5 offset-1 search">
 
-          <div class="col-5 offset-1 search">
+              <div class="searchBar">
 
-            <div class="searchBar">
+                <div class="btn-container">
 
-              <div class="btn-container">
+                  <div class="searchBarSpan d-flex btn-ms">
 
-                <div class="searchBarSpan d-flex btn-ms">
+                    <span>Email address ...</span>
 
-                  <span>Email address ...</span>
+                    <div class="searchBarButton btn-container">
+                      
+                      <div class="btn-msR">
 
-                  <div class="searchBarButton btn-container">
-                    
-                    <div class="btn-msR">
+                        <i class="fab fa-telegram-plane"></i>
 
-                      <i class="fab fa-telegram-plane"></i>
-
+                      </div>
+                      
                     </div>
-                    
+
                   </div>
 
                 </div>
@@ -768,63 +770,60 @@
 
       </div>
 
-    </div>
+      <div class="space-layout-general end-main">
 
-    <div class="space-layout-general end-main">
+        <div class="title">
 
-      <div class="title">
+          <h2>Partners</h2>
 
-        <h2>Partners</h2>
+        </div>
+
+        <div class="description">
+
+          <p>
+
+            Leverage agile frameworks to provide 
+            a robust synopsis for high level
+            overviews. Iterative approaches to
+            corporate strategy.
+
+          </p>
+
+        </div>
+
+        <div class="row-cols-8 d-flex end-main-img">
+
+          <div class="col"><img src="../assets/img/partner-2.png" alt=""></div>
+
+          <div class="col"><img src="../assets/img/partner-3.png" alt=""></div>
+
+          <div class="col"><img src="../assets/img/partner-4.png" alt=""></div>
+
+          <div class="col"><img src="../assets/img/partner-5.png" alt=""></div>
+
+          <div class="col"><img src="../assets/img/partner-6.png" alt=""></div>
+
+          <div class="col"><img src="../assets/img/partner-8.png" alt=""></div>
+
+          <div class="col"><img src="../assets/img/partner-1.png" alt=""></div>
+
+          <div class="col"><img src="../assets/img/partner-7.png" alt=""></div>
+
+        </div>
 
       </div>
 
-      <div class="description">
+      <div class="end-main-wave">
 
-        <p>
-
-          Leverage agile frameworks to provide 
-          a robust synopsis for high level
-          overviews. Iterative approaches to
-          corporate strategy.
-
-        </p>
-
-      </div>
-
-      <div class="row-cols-8 d-flex end-main-img">
-
-        <div class="col"><img src="../assets/img/partner-2.png" alt=""></div>
-
-        <div class="col"><img src="../assets/img/partner-3.png" alt=""></div>
-
-        <div class="col"><img src="../assets/img/partner-4.png" alt=""></div>
-
-        <div class="col"><img src="../assets/img/partner-5.png" alt=""></div>
-
-        <div class="col"><img src="../assets/img/partner-6.png" alt=""></div>
-
-        <div class="col"><img src="../assets/img/partner-8.png" alt=""></div>
-
-        <div class="col"><img src="../assets/img/partner-1.png" alt=""></div>
-
-        <div class="col"><img src="../assets/img/partner-7.png" alt=""></div>
+        <img src="../assets/img/background-wave3.png" alt="description">
 
       </div>
 
     </div>
-
-    <div class="end-main-wave">
-
-      <img src="../assets/img/background-wave3.png" alt="description">
-
-    </div>
-
-  </div>
-
+  </main>
 </template>
 
 <script>
-import "../assets/color.scss";
 
 export default {
   name: "Main",
@@ -832,17 +831,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
-// General Color
-$firstColor: white;
-$secondColor: #e9d758;
-$thirdColor: #da5f60e6;
-$fourthColor: #8B8B8A;
-$fifthColor: #e56768;
-$sixthColor: #F7F8FA;
-$seventhColor: #454545;
-$eighthColor: #dd3333;
-//
+@import "../assets/color.scss";
 
   .background{
 

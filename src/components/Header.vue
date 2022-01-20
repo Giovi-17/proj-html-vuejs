@@ -1,47 +1,80 @@
 <template>
-    
-  <div class="background">
+    <header>    
+        <div class="background">
 
-    <img class="background-image" src="../assets/img/theme_slider2_bg-1.jpg" alt="background-image-graduation-hat">
-    <img class="background-image-normal" src="../assets/img/Wave-1.png" alt="background-image-wave">
+            <img class="background-image" src="../assets/img/theme_slider2_bg-1.jpg" alt="background-image-graduation-hat">
+            <img class="background-image-normal" src="../assets/img/Wave-1.png" alt="background-image-wave">
 
-    <div class="container-fluid container-ms">
+            <div class="container-fluid container-ms">
 
-        <div class="row header-top d-flex align-items-center">
+                <div class="row header-top d-flex align-items-center">
 
-            <div class="col-3 logo d-flex justify-content-center align-items-center">
+                    <div class="col-3 logo d-flex justify-content-center align-items-center">
 
-                <img src="../assets/img/theme_eduprime_logo.png" alt="logo">
-
-            </div>
-
-            <div class="col-9 nav-ms d-flex justify-content-end align-items-center">
-
-                <div class="row container-info-courses align-items-center">
-
-                    <div class="col-7 info">
-
-                        <ul class="d-flex justify-content-end align-items-center">
-
-                            <li v-for="(infoData, index) in headerD.headerDataInfo" :key="index" >{{ infoData }} <i class="fas fa-caret-down"></i></li>
-
-                        </ul>
+                        <img src="../assets/img/theme_eduprime_logo.png" alt="logo">
 
                     </div>
 
-                    <div class="col-2 courses">
+                    <div class="col-9 nav-ms d-flex justify-content-end align-items-center">
 
-                        <ul class="d-flex justify-content-start align-items-center">
+                        <div class="row container-info-courses align-items-center">
 
-                            <li v-for="(infoData, index) in headerD.headerDataCourses" :key="index" >{{ infoData }}</li>
+                            <div class="col-7 info">
 
-                        </ul>
+                                <ul class="d-flex justify-content-end align-items-center">
+
+                                    <li v-for="(infoData, index) in headerD.headerDataInfo" :key="index" >{{ infoData }} <i class="fas fa-caret-down"></i></li>
+
+                                </ul>
+
+                            </div>
+
+                            <div class="col-2 courses">
+
+                                <ul class="d-flex justify-content-start align-items-center">
+
+                                    <li v-for="(infoData, index) in headerD.headerDataCourses" :key="index" >{{ infoData }}</li>
+
+                                </ul>
+
+                            </div>
+
+                            <div class="col-3 btn-container justify-content-end">
+
+                                <button type="button" class="btn btn-dark btn-lg btn-ms btn-ms-b-yellow hoverColor-White">VIEW COURSES</button>
+
+                            </div>
+
+                        </div>
 
                     </div>
 
-                    <div class="col-3 btn-container justify-content-end">
+                </div>
 
-                        <button type="button" class="btn btn-dark btn-lg btn-ms btn-ms-b-yellow hoverColor-White">VIEW COURSES</button>
+                <div class="row header-central d-flex space-layout-header d-flex justify-content-center">
+
+                    <div class="title d-flex justify-content-center">
+
+                        <h2>Key to yout success</h2>
+                        
+                    </div>
+
+                    <div class="content d-flex justify-content-center">
+
+                        <p>
+                            EduPrime is the most versatile WordPress 
+                            theme for education purposes,
+                            showcasing universities,courses,
+                            secondary schools etc.
+                        </p>
+
+                    </div>
+
+                    <div class="btn-container">
+
+                        <button type="button" class="btn btn-dark btn-lg btn-ms"><span><i class="fas fa-search"></i></span> Search courses</button>
+
+                        <button type="button" class="btn btn-dark btn-lg btn-ms btn-ms-two"><span><i class="fas fa-user-plus"></i></span> Apply for university</button>
 
                     </div>
 
@@ -49,51 +82,18 @@
 
             </div>
 
-        </div>
+            <div class="side-menu">
 
-        <div class="row header-central d-flex space-layout-header d-flex justify-content-center">
+                <div><i class="fas fa-shopping-cart"></i></div>
 
-            <div class="title d-flex justify-content-center">
+                <div><i class="far fa-newspaper"></i></div>
 
-                <h2>Key to yout success</h2>
-                
-            </div>
-
-            <div class="content d-flex justify-content-center">
-
-                <p>
-                    EduPrime is the most versatile WordPress 
-                    theme for education purposes,
-                    showcasing universities,courses,
-                    secondary schools etc.
-                </p>
-
-            </div>
-
-            <div class="btn-container">
-
-                <button type="button" class="btn btn-dark btn-lg btn-ms"><span><i class="fas fa-search"></i></span> Search courses</button>
-
-                <button type="button" class="btn btn-dark btn-lg btn-ms btn-ms-two"><span><i class="fas fa-user-plus"></i></span> Apply for university</button>
+                <div><i class="far fa-check-circle"></i></div>
 
             </div>
 
         </div>
-
-    </div>
-
-    <div class="side-menu">
-
-        <div><i class="fas fa-shopping-cart"></i></div>
-
-        <div><i class="far fa-newspaper"></i></div>
-
-        <div><i class="far fa-check-circle"></i></div>
-
-    </div>
-
-  </div>
-
+</header>
 </template>
 
 <script>
@@ -110,17 +110,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
-// General Color
-$firstColor: white;
-$secondColor: #e9d758;
-$thirdColor: #da5f60e6;
-$fourthColor: #8B8B8A;
-$fifthColor: #e56768;
-$sixthColor: #F7F8FA;
-$seventhColor: #454545;
-$eighthColor: #dd3333;
-//
+@import "../assets/color.scss";
 
 .background{
 
